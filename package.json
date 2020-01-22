@@ -1,0 +1,16 @@
+{
+  "name": "hlrracing.co.nz",
+  "version": "1.0.0",
+  "description": "HLR Racing Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdwen/hlrracing.co.nz.git"
+  },
+  "keywords": [],
+  "author": "Matt Dwen <matt@dwen.co.nz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattdwen/hlrracing.co.nz/issues"
+  },
+  "homepage": "https://github.com/mattdwen/hlrracing.co.nz#readme"
+}

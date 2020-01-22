@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Matt Dwen -- Developer -- @mattdwen
+
+# THANKS
+
+    Geoff and Suzanne Harper
+    Everyone who loves speedway
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    thml5-boilerplate, bootstrap, font-awesome, Normalize.css

@@ -14,19 +14,22 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b32dc4d982.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
   <nav class="navbar">
     <div class="container">
       <a class="navbar-brand" href="/">
         <img class="navbar-brand-img" src="images/hlr.svg" alt="HLR Racing"/>
       </a>
-      <button class="navbar-toggler" type="button">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="navbar-collapse">
+      <div class="navbar-collapse collapse1" id="mainNav">
+
         <ul class="navbar-nav">
           <li class="nav-item-divider"></li>
           <li class="nav-item">
@@ -45,17 +48,27 @@
               </span>
             </a>
           </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#welcome">Welcome</a class="nav-link"></li>
+          <li class="nav-item"><a class="nav-link" href="#youth-speed">Youth Speed</a class="nav-link"></li>
+        </ul>
       </div>
     </div>
   </nav>
+
   <section class="section">
     <div class="bg"></div>
     <div class="bg-overlay"></div>
     <div class="container">
       <h1>HLR Racing</h1>
-      <p>New Zealand speedway team, racing midgets.</p>
+      <p>New Zealand speedway team, racing midgets at Western Springs Speedway and around the country.</p>
     </div>
   </section>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

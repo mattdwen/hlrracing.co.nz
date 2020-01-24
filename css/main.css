@@ -43,8 +43,22 @@ dl, ol, ul {
   transition: height .35s ease;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-2 {
   margin-left: .5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none;
+  }
 }
 
 /** GRID **/
@@ -124,6 +138,10 @@ dl, ol, ul {
   display: none;
 }
 
+.navbar-nav .nav-item-divider .nav-link > span {
+  border-left: 1px solid #fff;
+}
+
 .navbar-nav .nav-link {
   position: relative;
   padding-top: 1rem;
@@ -151,4 +169,45 @@ dl, ol, ul {
   background-color: transparent;
   border: 1px solid transparent;
   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+    color: #fff;
+  }
+
+  .navbar > .container {
+    flex-wrap: nowrap;
+  }
+
+  .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .nav-item-divider {
+    display: block;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+
+
+.section {
+  display: none;
 }

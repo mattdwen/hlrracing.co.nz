@@ -1,0 +1,41 @@
+name: Publish
+
+on:
+  push:
+    branches:
+    - master
+    - hexo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: install yarn
+      run: npm install -g yarn
+
+    - name: install hexo
+      run: npm install -g hexo-cli
+
+    - name: yarn install
+      run: yarn install
+
+    - name: hexo generate
+      run: hexo generate
+
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist

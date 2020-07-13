@@ -1,0 +1,12 @@
+# Header
+menu:
+  Home: /
+  For Sale: /for-sale
+
+# Styles
+node_sass:
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+fb_app_id:

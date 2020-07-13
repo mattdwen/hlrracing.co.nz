@@ -1,0 +1,23 @@
+.hlr-footer {
+  padding: 3rem 0;
+
+  color: $navbar-dark-color;
+
+  a {
+    color: $navbar-dark-color;
+
+    &:hover {
+      color: $navbar-dark-hover-color;
+    }
+  }
+
+  .social {
+    font-size: 2rem;
+  }
+
+  .sponsors {
+    a {
+      margin-bottom: 1rem;
+    }
+  }
+}

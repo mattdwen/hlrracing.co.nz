@@ -1,0 +1,18 @@
+<%
+  // var title = `${page.title} - HLR Racing`;
+  var title = page.title;
+
+  if (page.categories && page.categories.some(c => c.name === 'for sale')) {
+    // console.error('for sale!');
+  }
+%>
+<meta property="og:title" content="<%= title %>"/>
+<meta property="og:site_name" content="HLR Racing"/>
+
+<% if (page.description) { %>
+  <meta property="og:description" content="<%= page.description %>"/>
+<% } %>
+
+<% if (page.photos) { %>
+  <meta property="og:image" content="https://www.hlrracing.co.nz/images/<%= page.photos[0] %>"/>
+<% } %>

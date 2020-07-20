@@ -1,0 +1,11 @@
+<% site.categories.findOne({name: "for sale"}).posts.sort('title', 1).each(function(post) { %>
+  <div class="media mb-3">
+    <a href="<%- url_for(post.path) %>">
+      <img src="/images/<%= post.photos[0] %>" class="mr-3" alt="<%= post.title %>" width="150">
+    </a>
+    <div class="media-body">
+      <h2 class="mt-0"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
+      <%= post.description %>
+    </div>
+  </div>
+<% }) %>

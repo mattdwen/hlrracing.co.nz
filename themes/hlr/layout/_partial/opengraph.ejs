@@ -16,3 +16,6 @@
 <% if (page.photos) { %>
   <meta property="og:image" content="https://www.hlrracing.co.nz/images/<%= page.photos[0] %>"/>
 <% } %>
+<% if (!page.photos) { %>
+  <meta property="og:image" content="https://www.hlrracing.co.nz/images/hlr.png"/>
+<% } %>

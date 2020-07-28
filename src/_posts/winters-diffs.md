@@ -12,7 +12,7 @@ tags:
 
 Multiple Available
 
-- 44x3 axles
-- 3.78 ring and pinion ratio
+- 44x3 36 spline
+- 44x3 31 spline
 
 NZ $1,750.00 incl GST.

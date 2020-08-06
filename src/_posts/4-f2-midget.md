@@ -1,5 +1,5 @@
 ---
-title: No.4 F2 Midget
+title: SOLD No.4 F2 Midget
 layout: for-sale-item
 description: Championship winning Aggressor/Ford package
 photos:
@@ -12,6 +12,8 @@ tags:
  - Car
 ---
 
+SOLD
+
 - Aggressor Chassis
 - Ford Zetec, refreshed
 - ARS Shock Absorbers
@@ -19,4 +21,4 @@ tags:
 - Weld Wheels
 - Winters Diff
 
-NZ $20,000 incl GST.
+SOLD

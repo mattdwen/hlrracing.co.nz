@@ -1,12 +1,13 @@
-<div class="container my-5">
-  <a class="h5" href="/for-sale">For Sale</a>
-
-  <div class="float-right">
-    <a class="btn btn-primary" href="mailto:sales@hlrracing.co.nz?subject=<%= page.title %> For Sale">Email for more information</a>
-    <a class="btn btn-primary" href="tel:+64274907041"">Call for more information</a>
-  </div>
+<div class="container my-3 my-sm-5">
 
   <h1><%= page.title %></h1>
+
+  <a class="h5 d-block mb-3" href="/for-sale">For Sale</a>
+
+  <div class="d-flex flex-column flex-sm-row">
+    <a class="btn btn-primary d-block mb-3" href="mailto:sales@hlrracing.co.nz?subject=<%= page.title %> For Sale">Email for more information</a>
+    <a class="btn btn-primary d-block mb-3 ml-sm-3" href="tel:+64274907041"">Call for more information</a>
+  </div>
 
   <p class="lead"><%= page.description %></p>
 
@@ -35,6 +36,8 @@
 
   <%- page.content %>
 
-  <a class="btn btn-primary" href="mailto:sales@hlrracing.co.nz?subject=<%= page.title %> For Sale">Email for more information</a>
-  <a class="btn btn-primary" href="tel:+64274907041"">Call for more information</a>
+  <div class="d-flex flex-column flex-sm-row">
+    <a class="btn btn-primary d-block mb-3" href="mailto:sales@hlrracing.co.nz?subject=<%= page.title %> For Sale">Email for more information</a>
+    <a class="btn btn-primary d-block mb-3 ml-sm-3" href="tel:+64274907041"">Call for more information</a>
+  </div>
 </div>
